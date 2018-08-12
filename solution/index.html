@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>TODO LIST</title>
+</head>
+
+<body>
+  <h1>Things I have to do</h1>
+
+
+  <ol class="ol">
+    <li class="container">
+      <input class="checkbox" type="checkbox" disabled>
+      <span>Make lunch</span>
+      <button class="btn-done">mark done</button>
+      <button class="btn-undone">Mark undone</button>
+    </li>
+
+    <li class="container">
+      <input class="checkbox" type="checkbox" disabled>
+      <span>Eat lunch</span>
+      <button class="btn-done">mark done</button>
+      <button class="btn-undone">Mark undone</button>
+    </li>
+  </ol>
+
+  <div>
+    <label>Add an item
+      <input class="addText" type="text">
+    </label>
+    <button class="add">add</button>
+  </div>
+
+  <div>
+    <button id="btn-summary">Make a summary</button>
+    <ul id="summary">
+
+    </ul>
+  </div>
+
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
