@@ -52,4 +52,10 @@ Next we want to be able to mark an item as undone, or not done. We need to react
 
 ## adding a new item
 
+Next, we want to add an input before the summary button to be able to add an element to the todo list. Make sure all the buttons work!
+
+![8.gif](8.gif)
+
 ## toggling done-ness
+
+## Automatic everything!!8!!8!!!
