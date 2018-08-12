@@ -2,7 +2,13 @@
 
 ## Setup
 
-Make a new html page with a nice header and an empty list of todo-items.
+Clone the gist:
+
+```sh
+git clone https://gist.github.com/0c37891fa9bd96bb67534fbb081418de.git
+```
+
+Make a new html page with a nice header and an empty list of todo-items in the "solution" folder.
 
 Add the first todo item. A to-do item consists of a `span` with text in it (the name of the todo), a button that says "mark done" and another button that says "mark undone" and finally a (disabled) check mark that's not yet checked. The text in this first item will be "make a todo list". This now looks like:
 
