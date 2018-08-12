@@ -38,7 +38,17 @@ They should both be able to be marked as done:
 
 ## listing done items
 
+When we press the "Make a summary" button, let's make a new list of all the done items underneath it, with a `<p>` tag before it with the text "done items". Then in that list we will put all the items that are currently done's text.
+
+We do this by fist clearing the list's DOM completely, then adding all the texts we need to add. This shoudl work like this:
+
+![6.gif](6.gif)
+
 ## Marking items as undone
+
+Next we want to be able to mark an item as undone, or not done. We need to react to the click to the undo button; and make the item not checked anymore. This should function like this:
+
+![7.gif](7.gif)
 
 ## adding a new item
 
